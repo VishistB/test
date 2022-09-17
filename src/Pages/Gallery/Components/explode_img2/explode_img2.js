@@ -3,7 +3,7 @@ import "../../Style/explode.css";
 import backbutton from "../../Assets/Backbutton.png";
 import { Link } from "react-router-dom";
 
-const explode_img2 = () => {
+const Explode_img2 = () => {
     function loadanimation() {
         let img = document.getElementById("mainimage");
         let img1 = document.getElementById("mainimage1");
@@ -134,4 +134,4 @@ const explode_img2 = () => {
     );
 };
 
-export default explode_img2;
+export default Explode_img2;
